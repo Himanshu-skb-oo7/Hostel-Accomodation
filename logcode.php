@@ -13,7 +13,7 @@ if($row=mysql_fetch_array($res,MYSQL_BOTH))
 {
 session_start();
 $_SESSION['varname'] = $username;
-header("Location:index.php");
+header("Location:redroom.php");
 }
 else
 {
