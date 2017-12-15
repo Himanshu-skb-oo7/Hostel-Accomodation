@@ -32,7 +32,7 @@ $(".button").on("click",function () {
         selectedroom.pop();
 
         if(this.innerHTML.length<5)
-         // this.style.backgroundColor= #4CAF50;
+          this.style.backgroundColor= "#4CAF50";
         else
           this.style.backgroundColor="black";
 
