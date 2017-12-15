@@ -1,8 +1,19 @@
+
+<?php
+session_start();
+
+if(isset($_SESSION["correctPassword"]))
+$correct=$_SESSION["correctPassword"];
+
+else
+$correct=1;
+?>
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>LOGIN</title>
+  <title>login form</title>
 
   <link rel="stylesheet" href="css/reset.min.css">
 
@@ -17,6 +28,21 @@
 body {
   background: #333;
   font: 100%/1 "Helvetica Neue", Arial, sans-serif;
+}
+
+.heading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -14rem 0 0 -13rem;
+  width: 25rem;
+  height: 5rem;
+  padding: 20px;
+  border-radius: 5px;
+  background: #333;
+  color: #333;
+  display: block;
+  font-weight: bold
 }
 
 .login {
@@ -188,7 +214,7 @@ body {
 </head>
 
 <body>
-
+<div><h1 id="heading" class="heading">USERNAME OR PASSWORD IS INCORRECT PLEASE TRY AGAIN </h1></div>
 <div class="login">
   <header class="login-header"><span class="text">LOGIN</span><span class="loader"></span></header>
   <form method="post" action="logcode.php" class="login-form">
@@ -198,7 +224,13 @@ body {
   </form>
 </div>
   <script src='js/vendor/jquery-3.2.1.min.js'></script>
-
-
+    <script>
+         if(<?php echo $correct?> == 0)
+         {
+           document.getElementById("heading").style.backgroundColor="red";
+           document.getElementById("heading").style.color="white";
+         }
+      </script>
+   <?php session_destroy();?>
 </body>
 </html>
