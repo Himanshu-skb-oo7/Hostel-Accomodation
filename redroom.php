@@ -1,6 +1,3 @@
-
-
-
 <?php
 $servername = "localhost";
 $username = "root";
@@ -80,6 +77,7 @@ $room_json = json_encode($room);
     </head>
     <body>
     <p hidden id="Roll_No"><?php echo $rollnum; ?></p>
+
     <H2>Ground Floor</H2>
     <button class="button buttonG" id="G1">G1</button>
     <button class="button buttonG" id="G2">G2</button>
@@ -111,27 +109,77 @@ $room_json = json_encode($room);
     <button class="button buttonG" id="G28">G28</button>
     <button class="button buttonG" id="G29">G29</button>
     <button class="button buttonG" id="G30">G30</button>
-    <button class="button buttonG" id="G31">G31</button>
-    <button class="button buttonG" id="G32">G32</button>
-    <button class="button buttonG" id="G33">G33</button>
-    <button class="button buttonG" id="G34">G34</button>
-    <button class="button buttonG" id="G35">G35</button>
-    <button class="button buttonG" id="G36">G36</button>
-    <button class="button buttonG" id="G37">G37</button>
-    <button class="button buttonG" id="G38">G38</button>
-    <button class="button buttonG" id="G39">G39</button>
-    <button class="button buttonG" id="G40">G40</button>
-    <button class="button buttonG" id="G41">G41</button>
         <br>
         <br>
         <br>
         <H2>First Floor</H2>
-    <button class="button buttonF">F1</button>
-    <button class="button buttonF">F2</button>
-    <button class="button buttonF">F3</button>
-    <button class="button buttonF">F4</button>
-    <button class="button buttonF">F5</button>
-    <br>
+        <button class="button buttonF" id="F1">F1</button>
+        <button class="button buttonF" id="F2">F2</button>
+        <button class="button buttonF" id="F3">F3</button>
+        <button class="button buttonF" id="F4">F4</button>
+        <button class="button buttonF" id="F5">F5</button>
+        <button class="button buttonF" id="F6">F6</button>
+        <button class="button buttonF" id="F7">F7</button>
+        <button class="button buttonF" id="F8">F8</button>
+        <button class="button buttonF" id="F9">F9</button>
+        <button class="button buttonF" id="F10">F10</button>
+        <button class="button buttonF" id="F11">F11</button>
+        <button class="button buttonF" id="F12">F12</button>
+        <button class="button buttonF" id="F13">F13</button>
+        <button class="button buttonF" id="F14">F14</button>
+        <button class="button buttonF" id="F15">F15</button>
+        <button class="button buttonF" id="F16">F16</button>
+        <button class="button buttonF" id="F17">F17</button>
+        <button class="button buttonF" id="F18">F18</button>
+        <button class="button buttonF" id="F19">F19</button>
+        <button class="button buttonF" id="F20">F20</button>
+        <button class="button buttonF" id="F21">F21</button>
+        <button class="button buttonF" id="F22">F22</button>
+        <button class="button buttonF" id="F23">F23</button>
+        <button class="button buttonF" id="F24">F24</button>
+        <button class="button buttonF" id="F25">F25</button>
+        <button class="button buttonF" id="F26">F26</button>
+        <button class="button buttonF" id="F27">F27</button>
+        <button class="button buttonF" id="F28">F28</button>
+        <button class="button buttonF" id="F29">F29</button>
+        <button class="button buttonF" id="F30">F30</button>
+            <br>
+            <br>
+            <br>
+            <H2>Second Floor</H2>
+                <button class="button buttonS" id="S1">S1</button>
+                <button class="button buttonS" id="S2">S2</button>
+                <button class="button buttonS" id="S3">S3</button>
+                <button class="button buttonS" id="S4">S4</button>
+                <button class="button buttonS" id="S5">S5</button>
+                <button class="button buttonS" id="S6">S6</button>
+                <button class="button buttonS" id="S7">S7</button>
+                <button class="button buttonS" id="S8">S8</button>
+                <button class="button buttonS" id="S9">S9</button>
+                <button class="button buttonS" id="S10">S10</button>
+                <button class="button buttonS" id="S11">S11</button>
+                <button class="button buttonS" id="S12">S12</button>
+                <button class="button buttonS" id="S13">S13</button>
+                <button class="button buttonS" id="S14">S14</button>
+                <button class="button buttonS" id="S15">S15</button>
+                <button class="button buttonS" id="S16">S16</button>
+                <button class="button buttonS" id="S17">S17</button>
+                <button class="button buttonS" id="S18">S18</button>
+                <button class="button buttonS" id="S19">S19</button>
+                <button class="button buttonS" id="S20">S20</button>
+                <button class="button buttonS" id="S21">S21</button>
+                <button class="button buttonS" id="S22">S22</button>
+                <button class="button buttonS" id="S23">S23</button>
+                <button class="button buttonS" id="S24">S24</button>
+                <button class="button buttonS" id="S25">S25</button>
+                <button class="button buttonS" id="S26">S26</button>
+                <button class="button buttonS" id="S27">S27</button>
+                <button class="button buttonS" id="S28">S28</button>
+                <button class="button buttonS" id="S29">S29</button>
+                <button class="button buttonS" id="S30">S30</button>
+
+                <br>
+                <center> <br>  <center>
     <button id="btn">Submit</button>
 
     <script src="js/vendor/jsscript.js"></script>
