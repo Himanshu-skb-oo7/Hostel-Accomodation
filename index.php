@@ -2,9 +2,9 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>login form</title>
+  <title>LOGIN</title>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="css/reset.min.css">
 
 
       <style>
@@ -23,7 +23,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -10rem 0 0 -10rem;
+  margin: -10rem 0 0 -13rem;
   width: 25rem;
   height: 20rem;
   padding: 20px;
@@ -183,7 +183,7 @@ body {
 
     </style>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="js/prefixfree.min.js"></script>
 
 </head>
 
