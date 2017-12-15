@@ -17,7 +17,7 @@ header("Location:redroom.php");
 }
 else
 {
-echo "Not So Cool";
+header("Location:iindex.php");
 }
 
 ?>

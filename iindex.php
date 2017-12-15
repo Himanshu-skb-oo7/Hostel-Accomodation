@@ -19,11 +19,27 @@ body {
   font: 100%/1 "Helvetica Neue", Arial, sans-serif;
 }
 
+.heading{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -14rem 0 0 -13rem;
+  width: 25rem;
+  height: 5rem;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  background: #4CAF50;
+  color: white;
+  display: block;
+  font-weight: bold
+}
+
 .login {
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -10rem 0 0 -10rem;
+  margin: -10rem 0 0 -13rem;
   width: 25rem;
   height: 20rem;
   padding: 20px;
@@ -188,7 +204,7 @@ body {
 </head>
 
 <body>
-
+<div><h1 class="heading">USERNAME OR PASSWORD IS INCORRECT PLEASE TRY AGAIN </h1></div>
 <div class="login">
   <header class="login-header"><span class="text">LOGIN</span><span class="loader"></span></header>
   <form method="post" action="logcode.php" class="login-form">
