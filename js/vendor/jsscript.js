@@ -1,17 +1,17 @@
 var select=0;
 var selectedroom=new Array();
-
 $("#btn").on("click",function () {
 
-    $.post("roomselect.php",
+    if(selectedroom.length!=0)
+    {   $.post("roomselect.php",
         {
-            room1:selectedroom,
+            room1: selectedroom,
             Roll_No: parseInt(document.getElementById("Roll_No").innerHTML)
         });
-
-        setTimeout(window.location.assign("thankyou.html"),1500);
-    });
-
+}
+    setTimeout(function(){window.location.assign("thankyou.html");},1500);
+});
+    
 $(".button").on("click",function () {
 
     if(this.style.backgroundColor!= "dodgerblue")

@@ -13,7 +13,7 @@ $correct=1;
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>login form</title>
+  <title>Login Form</title>
 
   <link rel="stylesheet" href="css/reset.min.css">
 
